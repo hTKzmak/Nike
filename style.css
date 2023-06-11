@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+html,
+body {
+    margin: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* ------------- header ------------- */
+
+header {
+    background-color: black;
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: space-evenly;
+}
+
+ul,
+li,
+a {
+    color: #f0f3f5;
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.icons {
+    width: 10px;
+}
+
+/* --------------main -> section ------------------ */
+
+.banner {
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    font-size: 40px;
+    display: grid;
+    padding-top: 118px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    gap: 100px;
+
+    /* для заднего изображения */
+    background-image: url(./images/air-jordan-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-text {
+    font-size: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 18px 30px;
+    outline: none;
+    font-size: 16px;
+}
+
+.dots-lists {
+    display: flex;
+    gap: 15px;
+}
+
+.dot-list {
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border-radius: 50px;
+}
+
+/* -------------------------------------------- */
+
+.picks {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.picks-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainers-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.trainer {
+    color: black;
+}
+
+.photo {
+    background-color: #e7e7e7;
+    width: 350px;
+    height: 350px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+/* =-=-=-=-=-==-=-=-=-=-=- */
+
+.object {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+/* ---------------Trend------------------- */
+
+.trend {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.block {
+    background-color: rgb(34, 34, 34);
+    width: 1042px;
+    height: 460px;
+    color: whitesmoke;
+    padding: 50px 0 0 50px;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.block:hover {
+    filter: brightness(70%);
+}
+
+.trend-blocks {
+    gap: 28px;
+    display: grid;
+}
+
+.mini-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mini-block {
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    padding: 200px 0 10px 50px;
+    width: 482px;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.mini-block:hover {
+    filter: brightness(70%);
+}
+
+/* ---------------Footer------------------- */
+
+footer {
+    background-color: black;
+    padding: 80px 0 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    background-color: #e7e7e7;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+}
+/* --------------------------------- */
+
+.contact{
+    padding-bottom: 100px;
+    display: grid;
+justify-content: center;
+text-align: center;
+}
+
+.contact__section{
+    padding-top: 79px;
+    max-width: 1242px;
+    margin: auto;
+}
+
+.contact__tools{
+    padding-top: 63px;
+    display: grid;
+    gap: 526px;
+}
+
+.write-place{
+    display: grid;
+    justify-content: center;
+    gap: 43px;
+}
+
+.textDecoration{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding-left: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea{
+    width: 350px; 
+    height: 23px;
+    max-width: 350px;
+    min-width: 350px;
+	max-height: 300px;
+	min-height: 23px;
+}
+
+.submit{
+    background: none;
+    border: 1px solid black;
+    font-size: 18px;
+    color: black;
+    padding: 13px 145px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.info-place{
+    margin-top: 57px;
+}
+
+.info{
+    display: flex;
+    width: 309px;
+    gap: 14px;
+}
+
+.icons{
+    margin-top: 11px;
+}
